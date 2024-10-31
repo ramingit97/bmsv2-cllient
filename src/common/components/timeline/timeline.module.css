@@ -1,0 +1,136 @@
+.timeline_box {
+    box-shadow: 0px 2px 6px 4px rgba(50, 71, 92, 0.02);
+    box-shadow: 0px 4px 9px 1px rgba(50, 71, 92, 0.04);
+    box-shadow: 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #ffff;
+}
+
+.timeline_title {
+    margin-bottom: 24px;
+}
+
+.timeline_title h6 {
+    color: var(--text-primary);
+}
+
+.timeline_list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.timeline_left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.timeline_status {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+}
+
+.timeline_status:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.timeline_status.success {
+    background-color: var(--bg-success);
+}
+
+.timeline_status.success:after {
+    background-color: var(--success-main);
+}
+
+.timeline_status.primary {
+    background-color: var(--bg-primary);
+}
+
+.timeline_status.primary:after {
+    background-color: var(--primary-main);
+}
+
+.timeline_status.danger {
+    background-color: var(--bg-error);
+}
+
+.timeline_status.danger:after {
+    background-color: var(--error-main);
+}
+
+.timeline_status.info {
+    background-color: var(--bg-info);
+}
+
+.timeline_status.info:after {
+    background-color: var(--info-main);
+}
+
+.timeline_status.warning {
+    background-color: var(--bg-warning);
+}
+
+.timeline_status.warning:after {
+    background-color: var(--warning-main);
+}
+
+.timeline_status.secondary {
+    background-color: var(--bg-secondary);
+}
+
+.timeline_status.secondary:after {
+    background-color: var(--secondary-main);
+}
+
+.timeline_status_box:after {
+    height: 100%;
+    display: block;
+    content: ' ';
+    background-color: rgba(46, 64, 81, 0.12);
+    width: 1px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+}
+
+.timeline_text h4 {
+    color: var(--text-primary);
+    padding: 0 0 6px;
+    font-weight: 500;
+}
+
+.timeline_text p {
+    color: var(--text-secondary);
+    padding: 2px 0;
+    font-weight: 400;
+}
+.timeline_right span{
+    color: var(--text-disabled);
+    font-weight: 400;
+}
+.timeline_additional_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.timeline_additional_item span{
+    color: var(--text-primary);
+    padding: 10px 0 16px;
+}

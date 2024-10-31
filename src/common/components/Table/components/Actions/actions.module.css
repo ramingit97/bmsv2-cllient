@@ -1,0 +1,21 @@
+.table_top{
+    padding: 26px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+     gap: 8px;
+}
+.right_buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+.custom_btn{
+    padding: 0!important;
+}

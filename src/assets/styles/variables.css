@@ -1,0 +1,64 @@
+:root {
+
+    /*colors*/
+    --primary-main: rgba(63, 150, 210, 1);
+    --primary-light: rgba(87, 146, 186, 1);
+    --primary-dark: rgba(114, 201, 255, 1);
+    --contained-hover-primary: rgba(32, 95, 138, 1);
+    --outlined-resting-primary: rgba(63, 150, 210, 0.5);
+    --outlined-hover-bg-primary: rgba(63, 150, 210, 0.05);
+
+    --secondary-main: rgba(46, 64, 81, 1);
+    --secondary-light: rgba(87, 146, 186, 1);
+    --secondary-dark: rgba(100, 110, 122, 1);
+    --contained-hover-secondary: rgba(89, 98, 116, 1);
+    --outlined-resting-secondary: rgba(109, 120, 141, 0.5);
+    --outlined-hover-bg-secondary: rgba(109, 120, 141, 0.05);
+
+    --info-main: rgba(3, 195, 236, 1);
+    --info-light: rgba(64, 205, 250, 1);
+    --info-dark: rgba(33, 174, 219, 1);
+    --contained-hover-info: rgba(2, 146, 177, 1);
+    --outlined-resting-info: rgba(38, 198, 249, 0.5);
+    --outlined-hover-bg-info: rgba(38, 198, 249, 0.05);
+
+    --success-main: rgba(44, 184, 152, 1);
+    --success-light: rgba(90, 222, 192, 1);
+    --success-dark: rgba(52, 177, 149, 1);
+    --contained-hover-success: rgba(52, 177, 149, 1);
+    --outlined-resting-success: rgba(44, 184, 152, 0.5);
+    --outlined-hover-bg-success: rgba(44, 184, 152, 0.05);
+
+    --warning-main: rgba(255, 171, 0, 1);
+    --warning-light: rgba(255, 184, 38, 1);
+    --warning-dark: rgba(232, 156, 0, 1);
+    --contained-hover-warning: rgba(191, 128, 0, 1);
+    --outlined-resting-warning: rgba(253, 181, 40, 0.5);
+    --outlined-hover-bg-warning: rgba(253, 181, 40, 0.05);
+
+    --error-main: rgba(255, 62, 29, 1);
+    --error-light: rgba(255, 91, 63, 1);
+    --error-dark: rgba(232, 56, 26, 1);
+    --contained-hover-error: rgba(191, 47, 22, 1);
+    --outlined-resting-error: rgba(255, 77, 73, 0.5);
+    --outlined-hover-bg-error: rgba(255, 77, 73, 0.05);
+
+    --text-primary: rgba(46, 64, 81, 0.87);
+    --text-secondary: rgba(46, 64, 81, 0.6);
+    --text-disabled: rgba(46, 64, 81, 0.38);
+    --text-primary-light: rgba(46, 64, 81, 0.87);
+
+    --divider: rgba(46, 64, 81, 0.12);
+    --outline-border: rgba(46, 64, 81, 0.22);
+    --input-line: rgba(46, 64, 81, 0.22);
+
+    --bg-primary: rgba(63, 150, 210, 0.12);
+    --bg-secondary: rgba(46, 64, 81, 0.12);
+    --bg-info: rgba(38, 198, 249, 0.12);
+    --bg-success: rgba(44, 184, 152, 0.12);
+    --bg-warning: rgba(253, 181, 40, 0.12);
+    --bg-error: rgba(255, 77, 73, 0.12);
+    --bg-active: rgba(63, 150, 210, 1);
+
+
+}

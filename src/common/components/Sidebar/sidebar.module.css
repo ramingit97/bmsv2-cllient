@@ -1,0 +1,71 @@
+.sidebar_box {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 4px 2px rgba(50, 71, 92, 0.02);
+    box-shadow: 0px 2px 6px 1px rgba(50, 71, 92, 0.04);
+    box-shadow: 0px 1px 6px 2px rgba(50, 71, 92, 0.06);
+    min-height: 100vh;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.sidebar_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 4px;
+}
+.sidebar_user img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.sidebar_user span{
+    color: var(--text-primary);
+}
+.menu_list  ul{
+    width: 100%!important;
+    padding: 0  0 0 8px;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-item-selected{
+    background-color: var(--bg-primary);
+    color: var(--primary-light) !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-item-selected svg path,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-item-selected svg path{
+    fill: var(--primary-light) !important;
+}
+.menu_list > ul > li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 16px!important;
+}
+.menu_list > ul > li svg{
+    width: 24px!important;
+    height: 24px!important;
+    margin-right: 4px!important;
+}
+.menu_list > ul > li svg path{
+    fill: var(--text-secondary) !important;
+    fillOpacity: 1!important;
+}
+.sidebar_search {
+    padding: 12px 16px;
+}
+.menu_list ul li span{
+    color: var(--text-secondary) !important;
+}

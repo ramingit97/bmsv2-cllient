@@ -1,0 +1,152 @@
+.button_custom {
+    height: auto !important;
+    color: #fff !important;
+    box-shadow: 0px 1px 4px 2px rgba(50, 71, 92, 0.02);
+    box-shadow: 0px 2px 6px 1px rgba(50, 71, 92, 0.04);
+    box-shadow: 0px 1px 6px 2px rgba(50, 71, 92, 0.06);
+
+}
+
+.button_custom:disabled {
+    background-color: rgba(46, 64, 81, 0.12) !important;
+    color: rgba(46, 64, 81, 0.26) !important;
+    cursor: not-allowed !important;
+    border-color: rgba(46, 64, 81, 0.12) !important;
+}
+
+.button_custom:disabled svg path {
+    fill: rgba(46, 64, 81, 0.26) !important;
+}
+
+.button_custom:disabled:hover {
+    background-color: rgba(46, 64, 81, 0.12) !important;
+    color: rgba(46, 64, 81, 0.26) !important;
+    cursor: not-allowed !important;
+    border-color: rgba(46, 64, 81, 0.12) !important;
+}
+
+.primary {
+    background-color: var(--primary-main) !important;
+    border-color: var(--primary-main) !important;
+}
+.primary.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--primary-main) !important;
+    color: var(--primary-main) !important;
+}
+.primary:hover {
+    background-color: var(--contained-hover-primary) !important;
+    border-color: var(--contained-hover-primary) !important;
+}
+
+
+.secondary {
+    background-color: var(--secondary-main) !important;
+    border-color: var(--secondary-main) !important;
+}
+.secondary.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--secondary-main) !important;
+    color: var(--secondary-main) !important;
+}
+.secondary:hover {
+    border-color: var(--contained-hover-secondary) !important;
+    background-color: var(--contained-hover-secondary) !important;
+}
+
+.success {
+    background-color: var(--success-main) !important;
+    border-color: var(--success-main) !important;
+}
+.success.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--success-main) !important;
+    color: var(--success-main) !important;
+}
+.success:hover {
+    border-color: var(--contained-hover-success) !important;
+    background-color: var(--contained-hover-success) !important;
+}
+
+.danger {
+    background-color: var(--error-main) !important;
+    border-color: var(--error-main) !important;
+}
+.danger.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--error-main) !important;
+    color: var(--error-main) !important;
+}
+.danger:hover {
+    border-color: var(--contained-hover-error) !important;
+    background-color: var(--contained-hover-error) !important;
+}
+
+.warning {
+    border-color: var(--warning-main);
+    background-color: var(--warning-main) !important;
+}
+.warning.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--warning-main) !important;
+    color: var(--warning-main) !important;
+}
+.warning:hover {
+    background-color: var(--contained-hover-warning) !important;
+    border-color: var(--contained-hover-warning) !important;
+}
+
+.info {
+    background-color: var(--info-main) !important;
+    border-color: var(--info-main) !important;
+}
+.info.outline_btn{
+    background-color: transparent !important;
+    border-color: var(--info-main) !important;
+    color: var(--info-main) !important;
+}
+.info:hover {
+    background-color: var(--contained-hover-info) !important;
+    border-color: var(--contained-hover-info) !important;
+}
+.table{
+    height: 36px!important;
+    background: rgba(247, 248, 249, 1);
+    border: 1px solid rgba(58, 53, 65, 0.3);
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+.table svg path{
+    fill: rgba(0, 0, 0, 0.87) !important;
+}
+.outline_btn:hover{
+    color: #fff !important;
+}
+.large {
+    padding: 8px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.46000000834465027px;
+    color: #fff;
+}
+
+.medium {
+    padding: 7px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4000000059604645px;
+    color: #fff;
+}
+
+.small {
+    padding: 4px 14px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.46000000834465027px;
+    color: #fff;
+}

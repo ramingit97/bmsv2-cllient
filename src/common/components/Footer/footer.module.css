@@ -1,0 +1,21 @@
+.footer_box{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_side span{
+    color: var(--primary-main);
+}
+.left_side p{
+    color: var(--text-secondary);
+}
+.footer_links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+.footer_links li a{
+    color: var(--primary-main);
+}

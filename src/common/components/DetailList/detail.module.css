@@ -1,0 +1,136 @@
+.detail_list_box{
+
+}
+.list_action{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+.list_action span{
+    cursor: pointer;
+}
+.list_title{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.list_title h6{
+    color: var(--text-primary-light);
+    text-decoration: underline;
+}
+.list_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  24px 0 16px ;
+}
+.list_date .date_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+.list_date .date_box > span{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--bg-primary);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_date .date_box span svg path{
+    fill: var(--primary-main);
+}
+.list_date .date_box .date_text span{
+    color: var(--text-secondary);
+}
+.list_date .date_box .date_text p{
+    color: var(--text-primary);
+}
+.list_detail{
+    padding:  0 12px;
+}
+.list_detail h6{
+    color: var(--text-primary);
+}
+.list_detail ul{
+    margin: 16px 0;
+    padding: 16px 0;
+    border-top: 1px solid rgba(46, 64, 81, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid rgba(46, 64, 81, 0.12);
+}
+.list_detail ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.list_detail ul li span,
+.list_detail ul li p{
+    color: var(--text-secondary);
+}
+.list_detail ul li p{
+    font-weight: 500;
+}
+.list_detail ul li a{
+    color: var(--primary-main);
+    text-decoration: underline;
+    font-weight: 500;
+}
+.list_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 12px;
+}
+.list_bottom  p{
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+.contact_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contact_list span{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.14000000059604645px;
+    color: #fff;
+    background-color: rgba(189, 189, 189, 1);
+    margin-right: -4px;
+    position: relative;
+    z-index: 2;
+
+}
+.contact_list .last_item span{
+    margin-right: 0!important;
+    background-color: rgba(46, 64, 81, 0.08);
+    border-color: rgba(46, 64, 81, 0.08);
+    color: var(--text-primary);
+    z-index: 1;
+}
+.detail_actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0 8px;
+}

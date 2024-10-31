@@ -1,0 +1,40 @@
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.header_left svg{
+    width: 144px;
+    height: 38px;
+}
+.header_left  span{
+    display: block;
+    width: 2px;
+    height: 34px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.header_left h4{
+    color: rgba(46, 64, 81, 1);
+}
+.header_right,
+.header_right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.header_right ul li{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

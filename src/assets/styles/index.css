@@ -1,0 +1,97 @@
+@import "reset.css";
+@import "typography.css";
+@import "variables.css";
+
+
+body{
+    background-color: rgb(245,245,249);
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-vertical .ant-menu-item, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-inline .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-vertical .ant-menu-submenu-title {
+    /*padding-inline: 0 !important;*/
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-item-selected span,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-item-selected span{
+    color: var(--primary-light) !important;
+
+}:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-item-selected svg path,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-item-selected svg path{
+    fill: var(--primary-light) !important;
+
+}
+
+
+.menu_list ul li.ant-menu-submenu{
+    padding: 0!important;
+    flex-direction: column!important;
+}
+.menu_list ul li.ant-menu-submenu.ant-menu-submenu-open .ant-menu-submenu-title{
+    background-color: var(--bg-primary);
+}
+.menu_list ul li.ant-menu-submenu.ant-menu-submenu-open .ant-menu-submenu-title span,
+.menu_list ul li.ant-menu-submenu.ant-menu-submenu-open .ant-menu-submenu-title i{
+    color: var(--primary-light) !important;
+}
+.menu_list ul li.ant-menu-submenu.ant-menu-submenu-open .ant-menu-submenu-title svg path{
+    fill:var(--primary-light) !important;
+}
+.menu_list ul li .ant-menu-submenu-title{
+    padding-left: 16px!important;
+}
+.menu_list ul li .ant-menu-submenu-arrow{
+    transform: rotate(-90deg);
+    color: var(--text-secondary);
+    inset-inline-end:10px!important;
+}
+/*:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-submenu,*/
+/*:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-submenu{*/
+/*    background-color: transparent!important;*/
+/*}*/
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-submenu .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-submenu .ant-menu-item-selected{
+    background-color: transparent!important;
+    color: var(--text-primary) !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-submenu .ant-menu-item-selected span,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-item-selected span{
+    color: var(--text-primary) !important;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light .ant-menu-submenu .ant-menu-item-selected span:before,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu .ant-menu-submenu .ant-menu-item-selected span:before{
+    display: block;
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: var(--primary-main) !important;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+.table_container{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 4px rgba(50, 71, 92, 0.02);
+    box-shadow: 0px 4px 9px 1px rgba(50, 71, 92, 0.04);
+    box-shadow: 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+
+}
+.box-mini{
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 4px rgba(50, 71, 92, 0.02);
+    box-shadow: 0px 4px 9px 1px rgba(50, 71, 92, 0.04);
+    box-shadow: 0px 2px 9px 0px rgba(50, 71, 92, 0.06);
+}
+.custom_label{
+    background-color: var(--bg-primary);
+    padding: 3px 6px;
+    border-radius: 4px;
+    text-decoration: underline;
+    color: var(--primary-main);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+}

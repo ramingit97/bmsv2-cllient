@@ -38,6 +38,8 @@ export const baseQueryWithReauth: BaseQueryFn<
           api,
           extraOptions
         )
+
+        console.log('refreshResult',refreshResult)
         
         if (refreshResult.data) {
           const loginResponse = refreshResult.data as any;

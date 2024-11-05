@@ -25,16 +25,30 @@ export default  function  TableComponent<T extends any[]>({data,tableName }:{dat
         let res = [];
         const keys = Object.keys(data[0]) as (keyof T)[];
         keys.forEach((key, index)=>{
-            if (index === 2) {
+            if(key==="images"){
+                res.push({
+                    title:"files",
+                    dataIndex: key,
+                    render:(data)=>{
+                        // console.log('data',data)
+                        return <img src={data[0]?.resized}/>
+                    }
+                })
+            }
+            else if (index === 2) {
                 res.push({
                     title: key,
                     dataIndex: key,
                     render: (text: string) => <Link to={`/${tableName}/${index}`} >{text}</Link>
                 });
-            } else {
+            } 
+            
+            else {
                 res.push({ title: key, dataIndex: key });
             }
         })
+
+        console.log('res',res)
         return res;
     }
     const onSelectChange = (newSelectedRowKeys: React.Key[]) => {

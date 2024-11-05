@@ -24,6 +24,9 @@ const Login = Loader(lazy(() => import("./modules/Auth/pages/Login")));
 const Companies = Loader(lazy(() => import("./modules/Companies")));
 const CompaniesDetail = Loader(lazy(() => import("./modules/Companies/pages/Detail")));
 
+const ProductAdd = Loader(lazy(() => import("./modules/Product/pages/add/ProductAddForm.tsx")));
+const ProductList = Loader(lazy(() => import("./modules/Product/pages/list/ProductList.tsx")));
+
 const routes: RouteObject[] = [
     {
         path: 'auth',
@@ -48,6 +51,21 @@ const routes: RouteObject[] = [
                 path: 'companies/:id',
                 element: <CompaniesDetail/>
             }
+        ]
+      },
+      {
+        path: 'product',
+        element:(<AuthMiddleware><BaseLayout /></AuthMiddleware>),
+        children: [
+            {
+                path: '',
+                element: <ProductList/>
+            },
+            {
+                path: 'add',
+                element: <ProductAdd/>
+            },
+           
         ]
       },
 ]
